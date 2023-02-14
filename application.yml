@@ -1,4 +1,9 @@
 
+spring:
+  application:
+    name: company-service  
+  main:
+    allow-circular-references: true
 eureka:
   instance:
     hostname: localhost
