@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Config-Dev
+eureka:
+  instance:
+    hostname: localhost
+    ip-address: true
+    
+ 
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+  
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
