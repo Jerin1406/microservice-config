@@ -1,7 +1,5 @@
 
-spring:
-  application:
-    name: company-service  
+spring: 
   main:
     allow-circular-references: true
 eureka:
